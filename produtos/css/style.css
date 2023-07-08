@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #e51e2a;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px;
+}
+
+h1 {
+    padding-left: 0%;
+    color: #f8f6f6;
+    background-color: #e51e2a;
+
+}
+
+h1:hover {
+    background-color: black;
+}
+
+#arrow-prev {
+    background-image: url('/produtos/img/arrow_prev.svg');
+}
+
+#arrow-next {
+    background-image: url('/produtos/img/arrow_next.svg');
+}
+
+img {
+    background-color: #e51e2a;
+    padding: 0px;
+
+}
+
+.alimentos-slider .slide {
+    transform: scale(0.6);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+
+}
+
+.alimentos-slider .slide.slick-center {
+    transform: scale(1.2);
+}
+
